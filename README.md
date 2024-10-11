@@ -20,19 +20,23 @@ FindSimilarverse : ![image](https://github.com/user-attachments/assets/b61f87bb-
 ## Folder Structure ##:
 Folder structure is simple ,formed like a typical Nextjs Application
 
-## App
-    similarverse
-      page.js
-    surah
-      [id]
-        page.js
-      page.js
-  page.js(default)
+| App
+├── similarverse
+│   ├── page.js                // Displays similar verses
+├── surah
+│   ├── [id]
+│   │   └── page.js            // Displays a specific Surah by ID
+│   └── page.js                // Lists all Surahs
+└── page.js (default)          // Default landing page
+|
+|
+Components                     // All components for the app
+|
+|
+Services
+├── ApiUtils.js                // API utility functions
 
-## Components
-//all the components for the app
-
-## Services
-  ApiUtils.js
 
 ## Backend Setup  
+ceck the link given below for backend setup :
+https://github.com/furqanx11/SimilarVerse-Backend/blob/main/README.md
